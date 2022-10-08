@@ -94,7 +94,7 @@ export default function Home() {
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 class="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
+          <h1 className="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
             Work.
           </h1>
 
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 class="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
+          <h1 className="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
             Services.
           </h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         )}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 class="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
+          <h1 className="text-6xl font-normal leading-normal mt-0 mb-2 text-orange-800">
             About.
           </h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
