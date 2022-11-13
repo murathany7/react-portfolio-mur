@@ -49,12 +49,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <img
                     className="h-5"
                     src={`/images/${!open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
-                          ? "cancel.svg"
-                          : "cancel-white.svg"
+                      ? theme === "dark"
+                        ? "menu-white.svg"
+                        : "menu.svg"
+                      : theme === "light"
+                        ? "cancel.svg"
+                        : "cancel-white.svg"
                       }`}
                   ></img>
                 </Popover.Button>
@@ -74,7 +74,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:murathanprogram@gmail.com")
+                        router.push("/resume")
                       }
                     >
                       Resume
